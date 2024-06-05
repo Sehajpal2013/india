@@ -53,7 +53,7 @@ button:hover{
 
 .india{
     max-width:400px;
-    min-height:300px;
+    min-height: 300px;
     max-height:300px;
     object-fit: cover;
     justify-content: center;
@@ -65,13 +65,7 @@ button:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: auto;
-
-}
-.inner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 80vw;
+    margin: auto;
 
 }
