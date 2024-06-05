@@ -67,7 +67,7 @@ button:hover{
     margin: auto;
 
 }
-.container{
+.inner{
     display: flex;
     align-items: center;
     justify-content: center;
