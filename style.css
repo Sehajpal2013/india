@@ -1,0 +1,76 @@
+:root{
+    --dbc: #FB8B24;
+    --sdbc: #FDF7E4;
+    --dbct: #C7C8CC;
+}
+
+
+.main{
+   display: flex;
+   background-color: var(--sdbc);
+   color: var(--dbc);
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: oblique;
+   font-style: italic;
+   font-size: 10vh;
+   text-align: center;
+   height: 18vh;
+   align-items: center;
+   justify-content: center;
+}
+
+.second{
+    display: flex;
+    background-color: var(--dbc);
+    height: 14vh;
+    width: 100%;
+}
+
+
+button{
+    justify-content: center;
+    color: #FB8B24;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+    font-style: italic;
+    width: 15vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    border: 0.5vh solid rgba(0,0,0);
+}
+
+
+button:hover{
+    background-color: var(--dbct);
+}
+
+
+
+.india{
+    max-width:400px;
+    max-height:300px;
+    object-fit: cover;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+
+}

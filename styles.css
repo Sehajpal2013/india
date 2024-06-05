@@ -1,0 +1,100 @@
+
+
+:root{
+    --dbc: #FB8B24;
+    --sdbc: #FDF7E4;
+    --dbct: #C7C8CC;
+}
+a{
+    text-decoration: none;
+   
+    font-family: "Roboto", sans-serif;
+  
+}
+
+
+.dieciluoghi{
+    font-size:2rem;
+}
+
+
+.card{
+    background-color: var(--sdbc);
+    color: var(--dbc);
+    font-size: 3vh;
+    border: 5px solid black;
+    height: 29vh;
+    width: 40vh;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.card>div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     border-bottom:5px solid black;
+     border-radius: 8px;
+}
+
+.TajMahal{
+    object-fit: fill;
+    height: 169px;
+    width: 299px;
+
+}
+
+.Destinazioni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .Destinazioni{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+        align-items: center;
+    }
+
+    .TajMahal{
+        object-fit: cover;
+        height: 145px;
+        width: 275px;
+    }
+    .second{
+    display: flex;
+}
+
+}
+
+
+@media (max-width: 768px) {
+    .dieciluoghi{
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main{
+        font-size: 40px;
+    }
+
+}
+
+
+@media (min-width:320px),(max-width:330px) {
+   
+
+
+    }
+

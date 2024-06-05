@@ -1,0 +1,67 @@
+
+:root{
+    --dbc: #FB8B24;
+    --sdbc: #FDF7E4;
+    --dbct: #C7C8CC;
+}
+
+.maincard{
+    background-color: var(--sdbc);
+    color: var(--dbc);
+    font-size: 3vh;
+    border: 5px solid black;
+    height: 58vh;
+    width: 80vh;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.maincard>div{
+    display: block;
+    text-align: center;
+    border-bottom:5px solid black;
+    border-radius: 8px;
+}
+
+
+.TajMahal{
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+.tajmahal{
+    width: 70vh;
+    height: 45;
+    text-align: center;
+}
+
+
+table, th, td{
+    border:4px dashed black;
+}
+
+.tajmahal-map{
+    width: 600px;
+    height: 44;
+}
+
+.titletajmahal{
+    font-size:xx-large;
+}
+
+
+.tajmahalhotels{
+     width: 600px;
+     height: 44;
+}
+
+
+.tajmahalhotel{
+    width: 600px;
+    height: 45;
+}
+
+.paragrafo{
+    max-width: 70vh;
+    max-height:44;
+}

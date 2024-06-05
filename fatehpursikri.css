@@ -1,0 +1,16 @@
+table,th,td{
+    border:4px dashed black;
+}
+
+.fatehpursikritable{
+    width: 70vh;
+    height: 45;
+    text-align: center;
+}
+
+
+
+.paragrafo{
+    max-width: 70vh;
+    max-height:45;
+}
