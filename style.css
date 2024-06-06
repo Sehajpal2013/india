@@ -71,3 +71,10 @@ button:hover{
     margin: auto;
 
 }
+
+
+@media (max-width: 768px){
+    .main{
+        font-size: 40px;
+    }
+}
